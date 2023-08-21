@@ -9,6 +9,7 @@ function handler(req,res){
         req.on('data', (chunk) => {
           body.push(chunk);
         });
+        
         req.on('end', () => {
           const parsedBody = Buffer.concat(body).toString();
           const message = parsedBody.split('=')[1];
@@ -40,3 +41,4 @@ function handler(req,res){
 // module.exports=handler;
 // module.exports.handlerr= handler;
 exports.handlerr=handler;
+

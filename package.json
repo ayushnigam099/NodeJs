@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-sharpener",
+  "version": "1.0.0",
+  "description": "My first Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon read-write.js",
+    "start-server": "nodemon read-write.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
